@@ -12,7 +12,7 @@ function App() {
     }
 
     return (
-        <section className={"min-h-screen flex flex-col font-roboto"}>
+        <section className={"min-h-screen flex flex-col font-roboto bg-amber-950"}>
             <header className={"min-h-12.5 bg-gray-300"}>
                 <nav className={"container mx-auto flex items-center justify-between"}>
                     <h1 className={"text-center"}>MineAnime</h1>
