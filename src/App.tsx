@@ -15,7 +15,7 @@ function App() {
         <section className={"min-h-screen flex flex-col font-roboto bg-amber-950"}>
             <header className={"min-h-12.5 bg-gray-300"}>
                 <nav className={"container mx-auto flex items-center justify-between"}>
-                    <h1 className={"text-center"}>MineAnime</h1>
+                    <h1 className={"text-center ps-2"}>MineAnime</h1>
                     {/*Menu classique*/}
                     <ul className={"hidden md:flex gap-3 text-xl"}>
                         <li>
