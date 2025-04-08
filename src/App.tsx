@@ -20,11 +20,11 @@ function App() {
                     <ul className={"hidden md:flex gap-3 text-xl"}>
                         <li>
                             <NavLink to={"/"}
-                                     className={(nav) => `hover:underline ${nav.isActive && "border-x px-2"}`}>Accueil</NavLink>
+                                     className={(nav) => `hover:underline ${nav.isActive && "border-x border-black px-2"}`}>Accueil</NavLink>
                         </li>
                         <li>
                             <NavLink to={"/presentation"}
-                                     className={(nav) => `hover:underline ${nav.isActive && "border-x px-2"}`}>Qui
+                                     className={(nav) => `hover:underline ${nav.isActive && "border-x border-black px-2"}`}>Qui
                                 sommes-nous ?</NavLink>
                         </li>
                     </ul>
